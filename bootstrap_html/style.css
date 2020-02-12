@@ -1,110 +1,64 @@
 body{
-	background-color: #666666;		
 }
-.col{
-	background: white;
+
+nav{
+	color:#fff;
 }
-.r{
-	background: white;
+nav a {
+	color:#fff;
 }
-.mainn{
-    margin-top: 180px;
-    margin-left: 100px;
-    margin-right: 100px;
-    height: 900px;
-    width: 1000px;
-    position: absolute;
-    background: white;
+
+.bg-black{
+	background: #000;
 }
-.nav{
-    background: rgb(64, 64, 64);
+
+.ttn-logo{
+	color:#fff;
+	margin-left:20px;
 }
-.rw{
-    background: white;
-    margin-top: 10px;
-    height: auto;
+
+.page-header{
+	padding:10px 10px;
 }
-.subnav {	
-    color: white;
-    width: 100%;
-    height: auto;
-    padding: 20px;
-    margin: 20px;
-    background: black;
+
+.bg-grey{
+	background: #eee;
 }
-h2 {
-    color: white;
-    text-align: left;
-    padding: 20px;
-}
-.menu {
-    height: 360px;
-    width: 100%;
-    background: rgb(64, 64, 64);
-}
-h1{
-    color: white;
-    text-align: center;
-    padding: 130px 20px;
-}
-.text {
-    margin-left: 92px;	
-    width: auto;	
-    background: rgb(191, 191, 191);
-}
-.main{
-	background: white;
-	height: auto;
-	width: 920px;
-	position: absolute;
-}
-.menu{
-	margin-top: 20px;
-	margin-left: 20px;
-	background: #404040;
-	height: 360px; 	
-	width: 880px;
-	position: relative;
-}
-.text{
-	margin-left: 20px;
-	margin-top: 20px;
-	margin-right: 20px;
-	background: #bfbfbf;
-	height: auto; 	
-	width: 880px;
-	position: relative;
-}
+
 .txt{
-	margin-left: 20px;
-	margin-top: 20px;
-	margin-right: 20px;
-	height: auto; 	
-	width: 960px;
-	position: relative;
+	box-sizing: border-box;
+	padding:15px;
+	margin-top:30px;
+	font-size:1.2em;
 }
-.txt1{
-	margin-left: 20px;	
-	margin-top: 20px;
-	height: auto; 	
-	width: 960px;
-	position: absolute;
+
+.heading{
+	font-size:1.3rem;
+	margin-top:20px;
+	margin-left:15px;
+	padding-bottom:8px;
+	border-bottom: 1px solid #e5e4cc;
 }
-.imgmy{
-	margin-top: 20px;
-	margin-right: 20px;
-	height: 315px; 	
-	width: 210px;
-	background: #404040;
-	position: relative;
+
+.gallery{
+	margin-top:30px;
 }
-.foot{
-	margin-left: 0px;
-	margin-top: 400px;
-	background: black;
-	height: auto; 	
-	width: 920px;
-	color: white;
-	position: relative;
-padding: 10px;
+
+.gallery img{
+	width: 100%;
+}
+
+footer{
+	margin-top:20px;
+	color:#fff;
+	padding:15px 0px;
+	font-size:1.2rem;
+}
+
+ul.list li{
+	display: inline;
+}
+
+
+@media screen and (max-width:700px){
 }
