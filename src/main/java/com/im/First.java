@@ -2,6 +2,7 @@ package com.im;
 
 import java.lang.reflect.Array;
 import java.math.BigDecimal;
+import java.math.MathContext;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -54,7 +55,7 @@ public class First {
             throw new RuntimeException("Invalid input");
         } else {
             BigDecimal sum = values.stream().reduce(BigDecimal.ZERO, BigDecimal::add);
-            return (sum.divide(new BigDecimal(values.size())));
+            return (sum.divide(new BigDecimal(values.size()), MathContext.DECIMAL128));
         }
     }
 

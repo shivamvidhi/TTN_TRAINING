@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JUnit Jupiter" tests="3" skipped="0" failures="0" errors="0" time="0.022" hostname="shivam" timestamp="2020-03-02T10:03:40">
+<testsuite name="JUnit Jupiter" tests="19" skipped="0" failures="0" errors="0" time="0.051" hostname="shivam" timestamp="2020-03-02T17:18:46">
 <properties>
 <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
 <property name="file.encoding" value="UTF-8"/>
@@ -57,22 +57,118 @@
 <property name="user.timezone" value="Asia/Kolkata"/>
 <property name="user.variant" value=""/>
 </properties>
-<testcase name="shouldReturnCorrectDietPlanWhenCorrectCoder()" classname="healthycoderapp.DietPlannerTest" time="0.007">
+<testcase name="shouldReturnCorrectDietPlanWhenCorrectCoder()" classname="healthycoderapp.DietPlannerTest" time="0.008">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:healthycoderapp.DietPlannerTest]/[method:shouldReturnCorrectDietPlanWhenCorrectCoder()]
 display-name: shouldReturnCorrectDietPlanWhenCorrectCoder()
 ]]></system-out>
 </testcase>
-<testcase name="shouldReturnCorrectBMRWhenCorrectCoder()" classname="healthycoderapp.DietPlannerTest" time="0">
+<testcase name="shouldReturnCorrectBMRWhenCorrectCoder()" classname="healthycoderapp.DietPlannerTest" time="0.001">
 <system-out><![CDATA[
 unique-id: [engine:junit-jupiter]/[class:healthycoderapp.DietPlannerTest]/[method:shouldReturnCorrectBMRWhenCorrectCoder()]
 display-name: shouldReturnCorrectBMRWhenCorrectCoder()
 ]]></system-out>
 </testcase>
-<testcase name="canary()" classname="com.im.FirstTest" time="0.001">
+<testcase name="shouldReturnCorrectBMIScoreArrayWhenCoderListIsNotEmpty()" classname="healthycoderapp.BMICalculatorTest" time="0.003">
 <system-out><![CDATA[
-unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[method:canary()]
-display-name: canary()
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[method:shouldReturnCorrectBMIScoreArrayWhenCoderListIsNotEmpty()]
+display-name: shouldReturnCorrectBMIScoreArrayWhenCoderListIsNotEmpty()
+]]></system-out>
+</testcase>
+<testcase name="shouldReturnTrueWhenDietRecommended()" classname="healthycoderapp.BMICalculatorTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[method:shouldReturnTrueWhenDietRecommended()]
+display-name: shouldReturnTrueWhenDietRecommended()
+]]></system-out>
+</testcase>
+<testcase name="shouldThrowArithmeticExceptionWhenHeightZeroCalculateBMI()" classname="healthycoderapp.BMICalculatorTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[method:shouldThrowArithmeticExceptionWhenHeightZeroCalculateBMI()]
+display-name: shouldThrowArithmeticExceptionWhenHeightZeroCalculateBMI()
+]]></system-out>
+</testcase>
+<testcase name="shouldReturnFalseWhenDietNotRecommended()" classname="healthycoderapp.BMICalculatorTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[method:shouldReturnFalseWhenDietNotRecommended()]
+display-name: shouldReturnFalseWhenDietNotRecommended()
+]]></system-out>
+</testcase>
+<testcase name="shouldReturnNullWithWorstBMIWhenCoderListEmpty()" classname="healthycoderapp.BMICalculatorTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[method:shouldReturnNullWithWorstBMIWhenCoderListEmpty()]
+display-name: shouldReturnNullWithWorstBMIWhenCoderListEmpty()
+]]></system-out>
+</testcase>
+<testcase name="shouldReturnBMIWhenHeightNotZercoCalculateBMI()" classname="healthycoderapp.BMICalculatorTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[method:shouldReturnBMIWhenHeightNotZercoCalculateBMI()]
+display-name: shouldReturnBMIWhenHeightNotZercoCalculateBMI()
+]]></system-out>
+</testcase>
+<testcase name="shouldReturnCoderWithWorstBMIWhenCoderListNotEmpty()" classname="healthycoderapp.BMICalculatorTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[method:shouldReturnCoderWithWorstBMIWhenCoderListNotEmpty()]
+display-name: shouldReturnCoderWithWorstBMIWhenCoderListNotEmpty()
+]]></system-out>
+</testcase>
+<testcase name="shouldThrowArithmeticExceptionWhenHeightZero()" classname="healthycoderapp.BMICalculatorTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[method:shouldThrowArithmeticExceptionWhenHeightZero()]
+display-name: shouldThrowArithmeticExceptionWhenHeightZero()
+]]></system-out>
+</testcase>
+<testcase name="shouldReturnAverageOfBigDecimalList()" classname="com.im.FirstTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[method:shouldReturnAverageOfBigDecimalList()]
+display-name: shouldReturnAverageOfBigDecimalList()
+]]></system-out>
+</testcase>
+<testcase name="shouldReturnFalseIfStringIsNotPalindrome()" classname="com.im.FirstTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[method:shouldReturnFalseIfStringIsNotPalindrome()]
+display-name: shouldReturnFalseIfStringIsNotPalindrome()
+]]></system-out>
+</testcase>
+<testcase name="shouldReturnTrueIfStringIsPalindrome()" classname="com.im.FirstTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[method:shouldReturnTrueIfStringIsPalindrome()]
+display-name: shouldReturnTrueIfStringIsPalindrome()
+]]></system-out>
+</testcase>
+<testcase name="shouldReturnMainStringWhenMainStringIsEmpty()" classname="com.im.FirstTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[method:shouldReturnMainStringWhenMainStringIsEmpty()]
+display-name: shouldReturnMainStringWhenMainStringIsEmpty()
+]]></system-out>
+</testcase>
+<testcase name="shouldReturnMainStringWhenSubStringIsNull()" classname="com.im.FirstTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[method:shouldReturnMainStringWhenSubStringIsNull()]
+display-name: shouldReturnMainStringWhenSubStringIsNull()
+]]></system-out>
+</testcase>
+<testcase name="shouldReturnMainStringWhenReplacementStringIsNull()" classname="com.im.FirstTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[method:shouldReturnMainStringWhenReplacementStringIsNull()]
+display-name: shouldReturnMainStringWhenReplacementStringIsNull()
+]]></system-out>
+</testcase>
+<testcase name="shouldReturnNewStringIfMainStringContainsSubString()" classname="com.im.FirstTest" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[method:shouldReturnNewStringIfMainStringContainsSubString()]
+display-name: shouldReturnNewStringIfMainStringContainsSubString()
+]]></system-out>
+</testcase>
+<testcase name="shouldReturnOddElementList()" classname="com.im.FirstTest" time="0.004">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[method:shouldReturnOddElementList()]
+display-name: shouldReturnOddElementList()
+]]></system-out>
+</testcase>
+<testcase name="shouldThrowRuntimeExceptionWhenValueAreNull()" classname="com.im.FirstTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[method:shouldThrowRuntimeExceptionWhenValueAreNull()]
+display-name: shouldThrowRuntimeExceptionWhenValueAreNull()
 ]]></system-out>
 </testcase>
 <system-out><![CDATA[

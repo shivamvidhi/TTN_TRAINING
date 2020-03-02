@@ -1,15 +1,17 @@
-package healthycoderapp
+package healthycoderapp;
 
-import org.junit.jupiter.api.AfterAll
-
-
+import org.junit.jupiter.api.AfterAll;
 
 
-import org.junit.jupiter.api.BeforeAll
-import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.function.Executable
 
-import static org.junit.jupiter.api.Assertions.*
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.function.Executable;
+
+import java.util.*;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 class BMICalculatorTest {
 
